@@ -207,6 +207,8 @@ a {
   justify-content: space-evenly;
   padding: 2rem;
   height: 32.5vh;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
 }
 
 .announcements {
@@ -234,4 +236,42 @@ a {
   height: 0.2vh;
   background-color: #94a3b8;
   border-radius: 24px;
+}
+
+.trending-pfp {
+  height: 4dvb;
+  width: 2vw;
+}
+
+.trending-content {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  height: 25vh;
+  width: 15vw;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+
+.tegan,
+.tweek-pfp,
+.kendall,
+.alex {
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+.trending-header {
+  padding: 1.5rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.trending-text {
+  margin-left: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
